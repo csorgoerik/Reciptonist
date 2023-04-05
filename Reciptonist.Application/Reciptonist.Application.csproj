@@ -11,9 +11,13 @@
     <Folder Include="Features\" />
     <Folder Include="Enums\" />
     <Folder Include="Entities\" />
-    <Folder Include="Common\" />
     <Folder Include="ValueObjects\" />
     <Folder Include="Persistance\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
   </ItemGroup>
 
 </Project>
