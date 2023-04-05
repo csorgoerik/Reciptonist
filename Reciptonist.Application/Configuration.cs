@@ -5,6 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Reciptonist.Application;
-public class Extension
+public class Configuration
 {
 }
